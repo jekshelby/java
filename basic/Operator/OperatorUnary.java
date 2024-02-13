@@ -12,5 +12,9 @@ public class OperatorUnary {
         System.out.println("Nilai b : " + --b); // 4 karena duluan decrement (pre decrement)
         System.out.println("Nilai b sekarang: " + b); //4
         
+        // unary boolean
+        boolean cek = true;
+        System.out.println(cek); // true
+        System.out.println(!cek); // false
     }
 }
